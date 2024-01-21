@@ -35,9 +35,14 @@ namespace FinalExam.MVC.Areas.manage.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return NotFound();
             }
             return RedirectToAction("index", "dashboard");
+        }
+        public async Task<IActionResult> LogOut()
+        {
+            await _accountService.LogOut();
+            return RedirectToAction("login");
         }
     }
 }

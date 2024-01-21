@@ -88,7 +88,7 @@
             </nav><!-- .navbar -->
 
         </div>
-    </header>End Header
+    </header>
     <!-- End Header -->
     @RenderBody()
     <!-- ======= Footer ======= -->
@@ -134,9 +134,8 @@
                 <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                     <h4>Contact Us</h4>
                     <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
+                        <strong>Adress:</strong> @settings?.FirstOrDefault(x => x.Key == "adress")?.Value<br>
+
                         <strong>Phone:</strong> @settings?.FirstOrDefault(x => x.Key == "phone")?.Value<br>
                         <strong>Email:</strong> @settings?.FirstOrDefault(x => x.Key == "email")?.Value<br>
                     </p>

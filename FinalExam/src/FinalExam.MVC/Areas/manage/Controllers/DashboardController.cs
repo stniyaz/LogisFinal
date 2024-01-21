@@ -21,38 +21,38 @@ namespace FinalExam.MVC.Areas.manage.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> CreateRole()
-        {
-            IdentityRole role1 = new IdentityRole("SuperAdmin");
-            IdentityRole role2 = new IdentityRole("Member");
+        //public async Task<IActionResult> CreateRole()
+        //{
+        //    IdentityRole role1 = new IdentityRole("SuperAdmin");
+        //    IdentityRole role2 = new IdentityRole("Member");
 
-            await _roleManager.CreateAsync(role1);
-            await _roleManager.CreateAsync(role2);
-            return Ok();
-        }
-        public async Task<IActionResult> CreateAdmin()
-        {
-            AppUser user1 = new AppUser()
-            {
-                FullName = "Eli Eliyev",
-                UserName = "SuperAdmin",
-                Email = "super@gmail.com"
-            };
+        //    await _roleManager.CreateAsync(role1);
+        //    await _roleManager.CreateAsync(role2);
+        //    return Ok();
+        //}
+        //public async Task<IActionResult> CreateAdmin()
+        //{
+        //    AppUser user1 = new AppUser()
+        //    {
+        //        FullName = "Eli Eliyev",
+        //        UserName = "SuperAdmin",
+        //        Email = "super@gmail.com"
+        //    };
 
-            AppUser user2 = new AppUser()
-            {
-                FullName = "Veli Veliyev",
-                UserName = "Member",
-                Email = "member@gmail.com"
-            };
+        //    AppUser user2 = new AppUser()
+        //    {
+        //        FullName = "Veli Veliyev",
+        //        UserName = "Member",
+        //        Email = "member@gmail.com"
+        //    };
 
-            await _userManager.CreateAsync(user1,"Salam123!");
-            await _userManager.CreateAsync(user2,"Salam123!");
+        //    await _userManager.CreateAsync(user1,"Salam123!");
+        //    await _userManager.CreateAsync(user2,"Salam123!");
 
-            await _userManager.AddToRoleAsync(user1, "SuperAdmin");
-            await _userManager.AddToRoleAsync(user2, "Member");
+        //    await _userManager.AddToRoleAsync(user1, "SuperAdmin");
+        //    await _userManager.AddToRoleAsync(user2, "Member");
 
-            return Ok();
-        }
+        //    return Ok();
+        //}
     }
 }

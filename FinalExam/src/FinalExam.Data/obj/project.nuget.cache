@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FajcVvBiiDVuebsaZxkmGqsfP5MrZwk69ZMgA3VZ2SyuvtJ6gs99PKAEYlrKsKwg6boLJEkN8MHBxabJ5bMC6g==",
+  "dgSpecHash": "zOO4j7jAYfZFev9RWN9dAbdp04kuCqkqlyUa+0MSdVL46Cj2yY73agBxQd3U/Ym191LOYPTv8LU2Z5G+1t9+mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\final\\FinalExam\\src\\FinalExam.Data\\FinalExam.Data.csproj",
+  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\final\\LogisFinal\\FinalExam\\src\\FinalExam.Data\\FinalExam.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\II novbe\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.26\\microsoft.aspnetcore.cryptography.internal.6.0.26.nupkg.sha512",

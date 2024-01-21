@@ -13,5 +13,6 @@ namespace FinalExam.Business.Services.Interfaces
         Task UpdateAsync(Setting setting);
         Task<Setting> GetAsync(Expression<Func<Setting, bool>>? expression = null, params string[]? includes);
         Task<List<Setting>> GettAllAsync(Expression<Func<Setting, bool>>? expression = null, params string[]? includes);
+        IQueryable<Setting> GetAllQuery(Expression<Func<Setting, bool>>? expression = null, params string[]? includes);
     }
 }

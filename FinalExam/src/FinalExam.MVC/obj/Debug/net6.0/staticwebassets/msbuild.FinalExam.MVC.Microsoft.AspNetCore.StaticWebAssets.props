@@ -33712,12 +33712,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\serviceImages\3a84313d-381b-4b3e-96fa-e437e67deb9bfeatures-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\serviceImages\c768239e-e861-4ed2-909c-ecc8ddb17c32about.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\serviceImages\8cfc79ca-42f7-42b8-9a1f-01438d6af2c8testimonials-bg.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>FinalExam.MVC</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/FinalExam.MVC</BasePath>
-      <RelativePath>uploads/serviceImages/c768239e-e861-4ed2-909c-ecc8ddb17c32about.jpg</RelativePath>
+      <RelativePath>uploads/serviceImages/8cfc79ca-42f7-42b8-9a1f-01438d6af2c8testimonials-bg.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -33726,7 +33726,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\serviceImages\c768239e-e861-4ed2-909c-ecc8ddb17c32about.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\serviceImages\8cfc79ca-42f7-42b8-9a1f-01438d6af2c8testimonials-bg.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\serviceImages\f25382c5-d535-42c8-b6b7-6b5b86e5cf38trucking-service.jpg))">
       <SourceType>Package</SourceType>

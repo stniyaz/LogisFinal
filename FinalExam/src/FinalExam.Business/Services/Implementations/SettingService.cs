@@ -21,6 +21,11 @@ namespace FinalExam.Business.Services.Implementations
             _settingRepository = settingRepository;
         }
 
+        public IQueryable<Setting> GetAllQuery(Expression<Func<Setting, bool>>? expression = null, params string[]? includes)
+        {
+            return _settingRepository.GetAllAsync(expression, includes);
+        }
+
         public async Task<Setting> GetAsync(Expression<Func<Setting, bool>>? expression = null, params string[]? includes)
         {
             return await _settingRepository.GetAsync(expression, includes);

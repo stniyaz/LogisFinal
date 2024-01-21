@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MACGhRKiz5zUuZspgLBSPUXWkZJQRRe/oxmqkU3wUR08CC/QvMUm7agvEoQ9r0BobHPrNqFLHt5RxJ9nUdldcg==",
+  "dgSpecHash": "cS3Q3NZlyyKTpCpLovtQ87rLuODzhllnSk1MN9azeTq0kBU+N4OcAS7P1wjfiZbJYQKY3pdCQ9RNhRkCU2y7QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\final\\FinalExam\\src\\FinalExam.Core\\FinalExam.Core.csproj",
+  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\final\\LogisFinal\\FinalExam\\src\\FinalExam.Core\\FinalExam.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.26\\microsoft.aspnetcore.cryptography.internal.6.0.26.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.26\\microsoft.aspnetcore.cryptography.keyderivation.6.0.26.nupkg.sha512",

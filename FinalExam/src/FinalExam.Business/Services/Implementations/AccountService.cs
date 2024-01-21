@@ -28,5 +28,10 @@ namespace FinalExam.Business.Services.Implementations
             var result = await _signInManager.PasswordSignInAsync(user, model.Password, true, false);
             if(!result.Succeeded) throw new UserInvalidCredentialsExceptions("invalid credentials!");
         }
+
+        public async Task LogOut()
+        {
+            await _signInManager.SignOutAsync();
+        }
     }
 }

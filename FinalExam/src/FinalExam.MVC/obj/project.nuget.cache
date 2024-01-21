@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jP/mRofJClG053IpdBbCvgjLNB2hFYZNtafrNt1xeMyH7JycsgISgRSOzA5HXTRuvoijce+KsbEopIJW/pHqhw==",
+  "dgSpecHash": "GmjcG7pLWBQ39slUVF4t/8r7VudBOZDq6QcMWKQC5gGoJOf+lAeHon2PcOijI0UuQXxIySjLn5ZdF8Pj/EkTcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\final\\FinalExam\\src\\FinalExam.MVC\\FinalExam.MVC.csproj",
+  "projectFilePath": "C:\\Users\\II novbe\\Desktop\\final\\LogisFinal\\FinalExam\\src\\FinalExam.MVC\\FinalExam.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\II novbe\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\II novbe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

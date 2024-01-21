@@ -1,4 +1,4 @@
-﻿@model List<Setting>
+﻿@model PaginatedList<Setting>
 @{
     var counter = 0;
 }
@@ -32,4 +32,25 @@
             }
         </tbody>
     </table>
+</div>
+
+<div class="container-fluid d-flex align-items-center justify-content-center">
+    <nav aria-label="...">
+        <ul class="pagination">
+            <li class="page-item @(Model.HasPrev ? "" : "disabled")">
+                <a class="page-link" asp-action="index" asp-controller="setting" asp-route-page="@(Model.ActivePage-1)" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+
+            @for (int i = 1; i <= Model.TotalPageCount; i++)
+            {
+                <li class="page-item @(Model.ActivePage == i ? "active" : "")">
+                    <a asp-action="index" asp-controller="setting" asp-route-page="@i" class="page-link">@i</a>
+                </li>
+            }
+
+            <li class="page-item @(Model.HasNext ? "" : "disabled")">
+                <a class="page-link" asp-action="index" asp-controller="setting" asp-route-page="@(Model.ActivePage+1)" tabindex="-1" aria-disabled="true">Next</a>
+            </li>
+        </ul>
+    </nav>
 </div>

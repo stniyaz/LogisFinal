@@ -1,4 +1,5 @@
 ﻿using FinalExam.Business.CustomExceptions.SettingExceptions;
+using FinalExam.Business.PaginationHelper;
 using FinalExam.Business.Services.Interfaces;
 using FinalExam.Core.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -17,10 +18,19 @@ namespace FinalExam.MVC.Areas.manage.Controllers
             _settingService = settingService;
         }
 
-        public async Task<IActionResult> Index()
+        //public async Task<IActionResult> Index()
+        //{
+        //    var settings = await _settingService.GettAllAsync();
+        //    return View(settings);
+        //}
+        public async Task<IActionResult> Index(int page = 1)
         {
-            var settings = await _settingService.GettAllAsync();
-            return View(settings);
+            page = page < 1 ? 1 : page;
+            var settingQuery = _settingService.GetAllQuery();
+
+            var paginatedSetting = PaginatedList<Setting>.Create(settingQuery, page, 2);
+
+            return View(paginatedSetting);
         }
         public async Task<IActionResult> Update(int id)
         {
