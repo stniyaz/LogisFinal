@@ -1,0 +1,14 @@
+﻿@model Service
+
+<div class="container-fluid">
+<form method="post">
+    <div class="card" style="width: 18rem;">
+        <img src="~/uploads/serviceImages/@Model.ImageUrl" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text">@Model.Description</p>
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </div>
+    </div>
+</form>
+</div>

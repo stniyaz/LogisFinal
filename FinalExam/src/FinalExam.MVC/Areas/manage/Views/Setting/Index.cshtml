@@ -1,0 +1,35 @@
+﻿@model List<Setting>
+@{
+    var counter = 0;
+}
+
+<div class="container-fluid row justify-content-between align-items-center">
+    <h1>Settings Page</h1>
+</div>
+
+<div class="container-fluid">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">No</th>
+                <th scope="col">Key</th>
+                <th scope="col">Value</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var service in Model)
+            {
+                counter++;
+                <tr>
+                    <th scope="row">@counter</th>
+                    <td>@service.Key</td>
+                    <td>@service.Value</td>
+                    <td>
+                        <a asp-action="update" asp-controller="setting" asp-route-id="@service.Id" class="btn btn-primary">Update</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
