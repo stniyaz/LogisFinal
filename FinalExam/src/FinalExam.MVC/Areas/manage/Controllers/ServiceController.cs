@@ -64,7 +64,7 @@ namespace FinalExam.MVC.Areas.manage.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return NotFound();
             }
             return RedirectToAction(nameof(Index));
         }
@@ -98,7 +98,7 @@ namespace FinalExam.MVC.Areas.manage.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return NotFound();
             }
             return RedirectToAction(nameof(Index));
         }
@@ -114,7 +114,7 @@ namespace FinalExam.MVC.Areas.manage.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return NotFound();
             }
             return RedirectToAction(nameof(Index));
         }
@@ -137,7 +137,7 @@ namespace FinalExam.MVC.Areas.manage.Controllers
             }
             catch (Exception)
             {
-                throw;
+                return NotFound();
             }
             return RedirectToAction(nameof(Index));
         }

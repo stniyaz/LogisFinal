@@ -9,13 +9,13 @@ namespace FinalExam.MVC.Areas.manage.Controllers
     [Authorize(Roles = "SuperAdmin")]
     public class DashboardController : Controller
     {
-        private readonly UserManager<AppUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
-        public DashboardController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
-        {
-            _userManager = userManager;
-            _roleManager = roleManager;
-        }
+        //private readonly UserManager<AppUser> _userManager;
+        //private readonly RoleManager<IdentityRole> _roleManager;
+        //public DashboardController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<IdentityRole> roleManager)
+        //{
+        //    _userManager = userManager;
+        //    _roleManager = roleManager;
+        //}
 
         public IActionResult Index()
         {
